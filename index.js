@@ -1,4 +1,4 @@
-import {knex} from "../config/database.js";
+import { knex } from "./knex/config/database.js";
 
 knex('users')
     .then(data => console.log(data))
